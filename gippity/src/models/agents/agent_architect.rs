@@ -14,7 +14,7 @@ use std::time::Duration;
 pub struct AgentSolutionArchitect {
   attributes: BasicAgent
 }
-
+#[allow(dead_code)]
 impl AgentSolutionArchitect {
   pub fn new() -> Self {
 

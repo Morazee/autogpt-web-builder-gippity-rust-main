@@ -10,6 +10,7 @@ use crate::apis::call_request::call_gpt;
 
 
 #[derive(Debug)]
+#[allow(dead_code)]
 pub struct ManagingAgent {
   attributes: BasicAgent,
   factsheet: FactSheet,

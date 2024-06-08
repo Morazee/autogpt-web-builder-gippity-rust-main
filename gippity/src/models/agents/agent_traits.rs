@@ -34,6 +34,8 @@ pub struct FactSheet {
 
 // Trait functionality
 // This will be applied to each agent uniquely
+
+#[allow(dead_code)]
 #[async_trait]
 pub trait SpecialFunctions: Debug {
     

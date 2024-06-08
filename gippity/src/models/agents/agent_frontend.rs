@@ -80,6 +80,7 @@ pub struct AgentFrontendDeveloper {
   pub operation_focus: BuildComponent
 }
 
+#[allow(dead_code)]
 impl AgentFrontendDeveloper {
   pub fn new() -> Self {
 

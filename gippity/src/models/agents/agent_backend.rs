@@ -31,7 +31,7 @@ pub struct AgentBackendDeveloper {
   bug_errors: Option<String>,
   bug_count: u8
 }
-
+#[allow(dead_code)]
 impl AgentBackendDeveloper {
   pub fn new() -> Self {
 
